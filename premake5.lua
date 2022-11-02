@@ -1,8 +1,8 @@
-workspace "Geometria"
+workspace "badapple"
 	staticruntime "on"
 	configurations { "Release" }
 	platforms { "x86_64", "x86" }
-	startproject "Geometria"
+	startproject "badapple"
 	warnings "off"
 
 IncludeDirectories = {}
@@ -28,7 +28,7 @@ include "Libraries/ZLIB"
 IncludeDirectories["ZLIB"] = "Libraries/ZLIB"
 
 
-project "Geometria"
+project "badapple"
 	kind "ConsoleApp"
 	language "C++"
 	location "Geometria"
