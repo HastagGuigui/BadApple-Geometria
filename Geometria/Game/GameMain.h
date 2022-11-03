@@ -13,11 +13,13 @@ struct GameMain
 	static void Init()
 	{
 		Empty* script = new Empty();
-		script->AddScript<BadApple>();
-		MiniAudioManager::StartEngine();
+		
 		script->AddScript<MiniAudioSource>();
-		script->GetScript<MiniAudioSource>()->LoadAudioFile("Game/bad_apple.ogg");
-		script->GetScript<MiniAudioSource>()->PlayOnStart();
+		script->GetScript<MiniAudioSource>()->LoadAudioFile("Game/bad_apple.wav");
+		//script->GetScript<MiniAudioSource>()->PlayOnStart();
+
+		script->AddScript<BadApple>();
+
 		SceneManager::MainScene().MainDrawCall()->sort = DrawCall::Sorting::Static;
 	}
 };

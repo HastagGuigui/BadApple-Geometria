@@ -44,7 +44,6 @@ struct BadApple : public ScriptBehaviour
             }
             
         }
-        // themusic->Play();
 	}
 
     void OnUpdate()
@@ -60,6 +59,7 @@ struct BadApple : public ScriptBehaviour
         }else{
             if(Input::GetKeyDown(GLFW_KEY_SPACE)){
                 isPlaying = true;
+                themusic->Play();
             }
         }
     }

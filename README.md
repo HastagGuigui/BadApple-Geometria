@@ -12,8 +12,8 @@ There's the audio file in the game's files, and the json was yoink'd from [Junfe
 
     (just install (Geometria Hub)[https://github.com/Geometria-Engine/Hub] and go through the first boot process, that'll install everything you'll need)
 
- - Then, clone the project, and compile it (`./geo.exe --compile` on Windows Powershell, `geo.exe --compile` on Windows Command Prompt, and `./geo --compile` on Linux)
+ - Then, clone the project, and run `./run.bat` (or `./run.sh` on Linux)
 
- - Then go to the `./Geometria/` folder and run `./badapple.exe` (or `./badapple` if you're on linux)
+ - Afterwards, go to the `./Geometria/` folder and run `./badapple.exe` (or `./badapple` if you're on linux)
 
  - Also, press space to start the anim :D
